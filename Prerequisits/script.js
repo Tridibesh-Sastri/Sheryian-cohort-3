@@ -1,0 +1,11 @@
+var a = 10;
+var b = 20;
+var c = a + b;
+console.log("Hello World!");
+console.log("The sum of a and b is: " + c);
+console.warn("This is a warning message.");
+console.error("This is an error message.");
+console.table(["gopal", "shiva", "sita", "ram"]);
+console.time("myTimer");
+console.timeEnd("myTimer");
+console.table({ name: "gopal", age: 25, city: "Delhi" });

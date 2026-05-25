@@ -1,0 +1,107 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "bt9djg8p4z75wiyo9mi7wv",
+      "type": "image",
+      "x": 121.20002746582031,
+      "y": 273.5,
+      "width": 119,
+      "height": 91,
+      "angle": 0,
+      "strokeColor": "transparent",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 0,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 38521,
+      "version": 15,
+      "versionNonce": 2010329623,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1779035932557,
+      "link": null,
+      "locked": false,
+      "status": "saved",
+      "fileId": "mw6vdkmr5vbxwr5n35yrpd",
+      "scale": [
+        1,
+        1
+      ],
+      "customData": {
+        "excalimath_type": "equation",
+        "excalimath_source": "equation-panel",
+        "excalimath_latex": "\\begin{pmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{pmatrix}"
+      }
+    },
+    {
+      "id": "9z1sdkkfxdwfmruf70xrre",
+      "type": "image",
+      "x": 94.27374031159383,
+      "y": 409.27707214010104,
+      "width": 88,
+      "height": 49,
+      "angle": 0,
+      "strokeColor": "transparent",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 0,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 63069,
+      "version": 26,
+      "versionNonce": 1845025849,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1779035959948,
+      "link": null,
+      "locked": false,
+      "status": "saved",
+      "fileId": "u982t423pc5w10j1hbcp9",
+      "scale": [
+        1,
+        1
+      ],
+      "customData": {
+        "excalimath_type": "equation",
+        "excalimath_source": "equation-panel",
+        "excalimath_latex": "\\sum_{\\beta}^{\\alpha} \\log(a)"
+      }
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {
+    "mw6vdkmr5vbxwr5n35yrpd": {
+      "mimeType": "image/svg+xml",
+      "id": "mw6vdkmr5vbxwr5n35yrpd",
+      "dataURL": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22119%22%20height%3D%2291%22%3E%0A%20%20%3CforeignObject%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22%0A%20%20%20%20%20%20font-size%3A%2024px%3B%0A%20%20%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20%20%20color%3A%20%231e1e1e%3B%0A%20%20%20%20%22%3E%0A%20%20%20%20%20%20%3Cspan%20class%3D%22katex%22%3E%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%20display%3D%22block%22%3E%3Csemantics%3E%3Cmrow%3E%3Cmo%20fence%3D%22true%22%3E(%3C%2Fmo%3E%3Cmtable%20rowspacing%3D%220.16em%22%20columnalign%3D%22center%20center%20center%22%20columnspacing%3D%221em%22%3E%3Cmtr%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ea%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Eb%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ec%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3C%2Fmtr%3E%3Cmtr%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ed%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ee%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ef%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3C%2Fmtr%3E%3Cmtr%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Eg%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Eh%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3Cmtd%3E%3Cmstyle%20scriptlevel%3D%220%22%20displaystyle%3D%22false%22%3E%3Cmi%3Ei%3C%2Fmi%3E%3C%2Fmstyle%3E%3C%2Fmtd%3E%3C%2Fmtr%3E%3C%2Fmtable%3E%3Cmo%20fence%3D%22true%22%3E)%3C%2Fmo%3E%3C%2Fmrow%3E%3Cannotation%20encoding%3D%22application%2Fx-tex%22%3E%5Cbegin%7Bpmatrix%7D%20a%20%26amp%3B%20b%20%26amp%3B%20c%20%5C%5C%20d%20%26amp%3B%20e%20%26amp%3B%20f%20%5C%5C%20g%20%26amp%3B%20h%20%26amp%3B%20i%20%5Cend%7Bpmatrix%7D%3C%2Fannotation%3E%3C%2Fsemantics%3E%3C%2Fmath%3E%3C%2Fspan%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2FforeignObject%3E%0A%3C%2Fsvg%3E",
+      "created": 1779035926125,
+      "lastRetrieved": 1779035926125
+    },
+    "u982t423pc5w10j1hbcp9": {
+      "mimeType": "image/svg+xml",
+      "id": "u982t423pc5w10j1hbcp9",
+      "dataURL": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2288%22%20height%3D%2249%22%3E%0A%20%20%3CforeignObject%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%0A%20%20%20%20%3Cdiv%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxhtml%22%20style%3D%22%0A%20%20%20%20%20%20font-size%3A%2024px%3B%0A%20%20%20%20%20%20display%3A%20flex%3B%0A%20%20%20%20%20%20align-items%3A%20center%3B%0A%20%20%20%20%20%20justify-content%3A%20center%3B%0A%20%20%20%20%20%20width%3A%20100%25%3B%0A%20%20%20%20%20%20height%3A%20100%25%3B%0A%20%20%20%20%20%20color%3A%20%231e1e1e%3B%0A%20%20%20%20%22%3E%0A%20%20%20%20%20%20%3Cspan%20class%3D%22katex%22%3E%3Cmath%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F1998%2FMath%2FMathML%22%20display%3D%22block%22%3E%3Csemantics%3E%3Cmrow%3E%3Cmunderover%3E%3Cmo%3E%E2%88%91%3C%2Fmo%3E%3Cmi%3E%CE%B2%3C%2Fmi%3E%3Cmi%3E%CE%B1%3C%2Fmi%3E%3C%2Fmunderover%3E%3Cmi%3Elog%3C%2Fmi%3E%3Cmo%3E%E2%81%A1%3C%2Fmo%3E%3Cmo%20stretchy%3D%22false%22%3E(%3C%2Fmo%3E%3Cmi%3Ea%3C%2Fmi%3E%3Cmo%20stretchy%3D%22false%22%3E)%3C%2Fmo%3E%3C%2Fmrow%3E%3Cannotation%20encoding%3D%22application%2Fx-tex%22%3E%5Csum_%7B%5Cbeta%7D%5E%7B%5Calpha%7D%20%5Clog(a)%3C%2Fannotation%3E%3C%2Fsemantics%3E%3C%2Fmath%3E%3C%2Fspan%3E%0A%20%20%20%20%3C%2Fdiv%3E%0A%20%20%3C%2FforeignObject%3E%0A%3C%2Fsvg%3E",
+      "created": 1779035951440,
+      "lastRetrieved": 1779035951440
+    }
+  }
+}
