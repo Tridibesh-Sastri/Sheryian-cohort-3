@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: #000000;
+    color: #bbc3fa;
+    
+
+}
+
+main{
+    height: 90%;
+    width: 100%;
+    /* background-color: #644a4a; */
+    border:#ffffff solid 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+
+button{
+    cursor: pointer;
+    color: #02000c;
+    background-color: #cdcbf0;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+button:hover{
+    background-color: #05005a;
+    color: #ffffff;
+    /* border: solid 1px #cbcaca; */
+}
+nav{
+    height: 5vh;
+    width: 100%;
+    /* background-color: #747474; */
+    background: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav button{
+    background-color: #05005a;
+    border: solid 1px #cbcaca;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    color:#ffffff
+}
+
+.addbtn{
+    /* background-color: #05005a; */
+    background: none;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.addbtn button{
+    height: 20px;
+    width: 100px;
+    position: absolute;
+    left: calc(100% - 150px);
+    bottom: 50px;
+    /* transform: translateX(-50%); */
+    border-top: solid 1px #cbcaca;
+    border-left: solid 1px #cbcaca;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #bbc3fa;
+}
+
+main .box{
+    position: relative;
+    height: 70%;
+    width: 30%;
+    border: solid 1px #cbcaca;
+    border-radius: 10px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+main .box .innerBox{
+    position: absolute;
+    left: 30px;
+    height: 5vh;
+    width: 5vh;
+    border: solid 1px #cbcaca;
+    background-color: #0d00ff;
+    border-radius: 10px;
+}
