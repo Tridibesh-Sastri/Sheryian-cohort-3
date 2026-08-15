@@ -3,14 +3,14 @@ import { useState } from 'react'
 import Login from './Login'
 import Register from './Register'
 
-const Auth = () => {
+const Auth = ({setUsers, setPagePtr}) => {
 
     const [isLogin, setIsLogin] = useState(false)
 
 
   return (
-    <div  className='flex justify-center items-center h-screen w-screen bg-slate-950'>
-        {isLogin ? <Login setLogin={setIsLogin} /> : <Register setLogin={setIsLogin} />}
+    <div  className=' h-screen w-screen bg-slate-950'>
+        {isLogin ? <Login setLogin={setIsLogin} setPagePtr={setPagePtr} /> : <Register setLogin={setIsLogin} setUsers={setUsers} setPagePtr={setPagePtr} />}
       
     </div>
   )
