@@ -54,7 +54,7 @@ const getNoteByIdController = async (req, res)=>{
     }
 }
 
-
+// useing put method
 const updateNoteByIdcontroller = async(req, res) =>{
     try {
         let noteId = req.params.id
@@ -79,6 +79,30 @@ const updateNoteByIdcontroller = async(req, res) =>{
     }
 }
 
+//using patch method
+const patchNoteByIdController = async (req, res) => {
+    try {
+        let noteId = req.params.id
+
+        let body = req.body
+        let updtaedNote = await NotesModel.findByIdAndUpdate(noteId, body, {
+            returnDocument:'after'
+        })
+        consoele.log("patched succesfully")
+        return res.status(200).json({
+            status:true,
+            message: "patched successfully",
+            data: updatedNote
+        })
+    } catch (error) {
+        console.log(error)
+        return res.status(500).json({
+            status:false,
+            message: "internal server error in from patch controller"
+        })
+    }
+}
+
 const deleteNoteController = async (req,res) =>{
     try{
         let noteId = req.params.id
@@ -99,5 +123,6 @@ module.exports = {
     getAllNoteController, 
     getNoteByIdController,
     updateNoteByIdcontroller,
+    patchNoteByIdController,
     deleteNoteController
 }

@@ -14,6 +14,8 @@
     - Prompt
     - AI for categorization and sub channel creation
 - should have option for extra/specials as revisse tagging 
+- instead of pause play button of any learning material we should add button like (doubt, idea, distracted, forgotten/revisit, understanding clearification)
+- we can make interactive video, audio learning but do we make interactive reading
 
 ### Other project
 ### Onging Task

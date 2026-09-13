@@ -3,7 +3,7 @@
 - {LAMA} if any call comes notification appear and user open it then automatically the ongoing session will gonna paused
 - My querry 1 {as session paused any media player will paused automatically 
 this feature should on and off for certain sessions (but background ambiend  should not pause future update)}
-- muy querry 2 {So, during our learning, while we are creating our own path, we need to define our limits. Here, suppose I'm exploring CSS and get deep into animation and go deeper and deeper, so we have to define a proper restriction such that we must do these things and must complete them within this division for each. Similarly, in this, we can make a template or a limitation protocol for each road map for self-study so that the user does not go beyond the limitation and go deeper or get off the track in the road map. }
+- my querry 2 {So, during our learning, while we are creating our own path, we need to define our limits. Here, suppose I'm exploring CSS and get deep into animation and go deeper and deeper, so we have to define a proper restriction such that we must do these things and must complete them within this division for each. Similarly, in this, we can make a template or a limitation protocol for each road map for self-study so that the user does not go beyond the limitation and go deeper or get off the track in the road map. }
 - my query 3{Documentation or watching a lecture video: which is faster? I think these are context-dependent. Can you please explain in detail what the generally faster way to learn is, and what context dependencies there are, like when this is flipped?}
 ### Other project
 ### Ongoing Task

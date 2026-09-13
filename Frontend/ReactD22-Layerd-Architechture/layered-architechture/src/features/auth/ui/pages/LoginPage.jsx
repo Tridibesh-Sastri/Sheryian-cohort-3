@@ -13,7 +13,9 @@ const Login = () => {
     reset, 
     watch, 
     errors,
-    onSubmitLogin
+    onSubmitLogin,
+    loginForm
+    
   } = useAuth();
   // -----------------------------
   // Password Visibility State Definition
@@ -66,7 +68,7 @@ const Login = () => {
           {/******************* Form *******************/}
 
           <form 
-          onSubmit={handleSubmit(onSubmitLogin)}
+          onSubmit={handleSubmit(loginForm)}
           className="space-y-5">
             {/******************* Email *******************/}
 

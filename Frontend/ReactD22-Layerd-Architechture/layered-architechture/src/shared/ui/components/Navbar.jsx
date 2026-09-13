@@ -18,14 +18,14 @@ const Navbar = () => {
   const navRightItems = ()=>{
     if(isAuthenticated){
       return (
-        <div>
-          <NavLink to="/main/profile">Profile</NavLink>
-          <NavLink to="/main/cart">Cart</NavLink>
+        <div className='flex pl-4 pr-4 gap-5 relative'>
+          <NavLink className='absolute right-20' to="/main/profile">Profile</NavLink>
+          <NavLink className='absolute right-50' to="/main/cart">Cart</NavLink>
         </div>
       )
     }else{
       return (
-        <div>
+        <div className='flex pr-4 justify-around'>
           <NavLink to="/login">Login</NavLink>
           <NavLink to="/register">Register</NavLink>
         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
   const navMiddleItems = ()=>{
     if(isAuthenticated){
       return(
-        <div>
+        <div className='flex justify-around gap-8'>
           <NavLink to="/main">Home</NavLink>
           <NavLink to="/main/about">about</NavLink>
           <NavLink to="/main/product">Product</NavLink>
@@ -55,9 +55,9 @@ const Navbar = () => {
   return (
     <div>
       <nav 
-      className="flex justify-around items-center bg-gray-800 p-4"
+      className="w-full grid grid-cols-[1fr_2fr_1fr] bg-gray-800 p-4" 
       >
-        <div>
+        <div className='ml-20'>
           <span 
           onClick={()=> isAuthenticated? navigate("/main"): navigate("/")}
           className="text-white font-bold text-lg cursor-pointer"

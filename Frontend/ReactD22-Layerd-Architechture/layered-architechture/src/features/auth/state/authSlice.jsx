@@ -1,4 +1,5 @@
 import {createSlice} from '@reduxjs/toolkit'
+import loginUserAction from './authAction';
 
 const initialState = {
     isAuthenticated: false,
@@ -9,6 +10,8 @@ const initialState = {
 const authSlice = createSlice({
     name: 'auth', 
     initialState,
+
+    // These actions are only for comunicating with ui actions
     reducers:{
         addUser:(state, action)=>{
             state.user = action.payload;
@@ -23,6 +26,24 @@ const authSlice = createSlice({
         toggleLoading:(state)=>{
             state.isLoading = !state.isLoading;
         }
+    },
+    // to communication with thunk or external action we need extraReducers
+    // in application using this thunk can able to update the state of redux
+    // builder means thank action
+    extraReducers: (builder)=>{
+        builder
+        .addCase(loginUserAction.pending, (state, action)=>{
+            state.isLoading = true
+             
+        })
+        .addCase(loginUserAction.fulfilled, (state, action)=>{
+            state.isLoading = false
+            state.user = action.payload
+            state.isAuthenticated = true
+        })
+        .addCase(loginUserAction.rejected, (state, action)=>{
+            state.isLoading = false
+        })
     }
 })
 

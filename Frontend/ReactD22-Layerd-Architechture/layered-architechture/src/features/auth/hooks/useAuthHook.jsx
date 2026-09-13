@@ -5,6 +5,7 @@ import { loginUserApi } from "../api/authApi";
 import { useDispatch } from "react-redux";
 import { addUser } from "../state/authSlice";
 import { hydrateUserApi } from "../api/authApi";
+import loginUserAction from "../state/authAction";
 
 console.log("useAuthHook.jsx file rendering....");
 
@@ -31,6 +32,7 @@ export const useAuth = ()=>{
         password: 'emilyspass',
     };
 
+    //without thunk
     const onSubmitLogin = async (data) => {
         console.log("Form Data:", data);
 
@@ -42,6 +44,18 @@ export const useAuth = ()=>{
         reset();
     }
 
+    //using Thunk
+    const loginForm = async (data)=>{
+        try {
+            
+            dispatch(loginUserAction(data))
+            
+        } catch (error) {
+            
+        }
+        reset()
+    }
+
 
     return {
         navigate,
@@ -50,6 +64,7 @@ export const useAuth = ()=>{
         reset,
         watch,
         errors,
-        onSubmitLogin
+        onSubmitLogin,
+        loginForm
     }
 }
