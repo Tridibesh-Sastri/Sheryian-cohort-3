@@ -54,7 +54,8 @@ export const registerController = async (req, res)=>{
                 email: user.email,
                 // refresh:user.refresh_token
             }
-        }
+        },
+        accessToken
     })
     console.log( "user Created.....................")
 }

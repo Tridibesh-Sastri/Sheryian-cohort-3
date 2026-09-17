@@ -4,9 +4,7 @@ import { useGLTF } from "@react-three/drei";
 
 import { productConfig } from "../../config/product";
 import { modelParts } from "../../config/modelParts";
-import {
-  getNodeExplodedPosition,
-} from "../../animations/explodeAnimation";
+import { applyProductAnimation } from "../../animations/animation";
 
 const { path: MODEL_PATH } = productConfig.model;
 
@@ -144,29 +142,12 @@ const ProductModel = forwardRef(function ProductModel(
    * The animation utility decides where each component
    * should be positioned.
    */
-  useFrame(() => {
-    model.traverse((object) => {
-      const originalPosition =
-        object.userData.originalPosition;
-
-      if (!originalPosition) {
-        return;
-      }
-
-      const animatedPosition =
-        getNodeExplodedPosition(
-          object.name,
-          originalPosition,
-          animationProgress
-        );
-
-      object.position.set(
-        animatedPosition[0],
-        animatedPosition[1],
-        animatedPosition[2]
-      );
-    });
-  });
+useFrame(() => {
+  applyProductAnimation(
+    model,
+    animationProgress
+  );
+});
 
   return (
     <group
