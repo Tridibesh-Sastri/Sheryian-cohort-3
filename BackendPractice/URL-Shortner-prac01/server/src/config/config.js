@@ -1,0 +1,12 @@
+import dotenv from 'dotenv'
+dotenv.config()
+
+const config = {
+    PORT : process.env.PORT,
+    MONGO_URI : process.env.MONGO_URI
+}
+
+
+// console.log(config.MONGO_URI)
+
+export default config
