@@ -8,4 +8,5 @@
 7. Seller can Unlist any product
 8. A Seller can list all the products on the Dashboard.
 9. In the cart store the reference of the product with size and quantity. Not the entire copy of the product.
-10. 
+10. If auser request to the seller API then return the 403 status code
+11. If a Guest User request on the protect API then return the 401 status code.
