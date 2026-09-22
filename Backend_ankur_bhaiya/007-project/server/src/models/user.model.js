@@ -13,9 +13,15 @@ const userSchema = mongoose.Schema({
     passwordHash : {
         type : String,
         required : true,
+    },
+    role : {
+        type:String,
+        default:"user",
+        enum:["user", "seller"]
+    },
+    refreshTokenHash:{
+        type: String
     }
-},{
-    role : {enum:["user", "seller"]}
 })
 
 export const userModel = mongoose.model('user',userSchema)
